@@ -1,0 +1,139 @@
+*{
+margin: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+background-color: gray;
+height: 500px;
+
+}
+.Header {
+height: 100px;
+width: 100vw;
+background-color:black;
+position: fixed;
+display: block;
+border-bottom: 2px black;
+border-style: solid;
+
+}
+.innerheader{
+width: 75%;
+height: 100px;
+background-color:gray;
+margin:0 auto;
+padding: 10px;
+position:relative;
+display: block;
+font-size: 20px;
+border-top: 0;
+border-right: 0;
+border-bottom: 2px black;
+border-left: 0;
+border-style: solid;
+
+}
+
+.header-logo-container{
+    height:90px;
+    width: 90px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    float: left;
+    box-shadow: 2px 3px 10px, black;
+
+}
+.header-img{
+    width: 100%;
+    border-radius: 50%;
+    
+}
+#anchors{
+text-align: right;
+}
+
+.aside {
+text-align: center;
+font-size: 1em;
+position: relative;
+float: right;
+border-left: 3px black;
+border-style: solid;
+
+}
+.asidebox {
+height: 18em;
+width: 200px;
+/* background-color:rgb(97 97 97); */
+padding: 10px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+position: relative;
+float: right;
+border-left:0;
+border-right:0;
+border-top: 0;
+border-bottom:0;
+border-style: solid;
+
+}
+
+.aside-img-container {
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding-bottom: 20px;
+    
+}
+.aside-img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 2px 3px 10px rgb(41, 41, 41);    
+}
+
+.main-page {
+    
+    min-height: 300px;
+    margin-left: 3em;
+    float:none;
+    padding-top: 1em;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+@media screen and (max-width: 500px)
+{
+.asidebox {  display: none;}
+    
+}
+.footer {
+height: 100px;
+width: 100vw;
+background-color: gray;
+display: block;
+position: sticky;
+left:0;
+bottom:0;
+padding: 4px;
+border-top:0;
+border-right: 0;
+border-bottom: 0;
+border-left: 0;
+border-style: solid;
+}
+.innerfooter{
+    width: 75%;
+    height: 100px;
+    background-color:gray;
+    margin:0 auto;
+    padding: 5px;
+    position:relative;
+    display: block;
+    border-top: 2px;    
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-style: solid;
+
+}
